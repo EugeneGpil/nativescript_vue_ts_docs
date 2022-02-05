@@ -36,3 +36,21 @@
   font-size: 14;
   text-wrap: true;
 }
+
+.details {
+  &__info {
+    margin: 0 10;
+  }
+
+  &__text-primary {
+    margin-top: 15;
+    font-size: 16;
+    font-weight: 700;
+    text-wrap: true;
+  }
+
+  &__text-secondary {
+    font-size: 14;
+    text-wrap: true;
+  }
+}
